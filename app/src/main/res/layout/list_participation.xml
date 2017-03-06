@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView_part_number"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:text="@string/textView_part_number"
+        android:textAlignment="center"
+        android:layout_alignParentTop="true"
+        android:textStyle="normal|bold"
+        android:textAllCaps="false"
+        android:fontFamily="sans-serif"
+        android:textSize="14sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView_listPart_class_value"
+        android:layout_below="@+id/textView_listPart_voilier_value"
+        android:layout_toRightOf="@+id/textView_listPart_voilier_title"
+        android:layout_toEndOf="@+id/textView_listPart_voilier_title" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView_listPart_skipper_value"
+        android:layout_alignBaseline="@+id/textView_listPart_skipper_title"
+        android:layout_alignBottom="@+id/textView_listPart_skipper_title"
+        android:layout_toRightOf="@+id/textView_listPart_skipper_title"
+        android:layout_toEndOf="@+id/textView_listPart_skipper_title" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView_listPart_voilier_value"
+        android:layout_alignBaseline="@+id/textView_listPart_voilier_title"
+        android:layout_alignBottom="@+id/textView_listPart_voilier_title"
+        android:layout_toRightOf="@+id/textView_listPart_voilier_title"
+        android:layout_toEndOf="@+id/textView_listPart_voilier_title" />
+
+    <TextView
+        android:text="@string/textView_Voilier_Classe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView_listPart_classe_title"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:layout_alignBaseline="@+id/textView_listPart_class_value"
+        android:layout_alignBottom="@+id/textView_listPart_class_value"
+        android:layout_toLeftOf="@+id/textView_listPart_class_value"
+        android:layout_toStartOf="@+id/textView_listPart_class_value" />
+
+    <TextView
+        android:text="@string/textView_Skipper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView_listPart_skipper_title"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:layout_below="@+id/textView_listPart_class_value"
+        android:layout_toLeftOf="@+id/textView_listPart_class_value"
+        android:layout_toStartOf="@+id/textView_listPart_class_value" />
+
+    <TextView
+        android:text="@string/textView_Voilier_Name"
+        android:layout_width="163dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView_listPart_voilier_title"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:layout_below="@+id/textView_part_number"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

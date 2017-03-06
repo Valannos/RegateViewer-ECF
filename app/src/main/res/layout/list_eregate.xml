@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/regateId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="regateId" />
+
+    <Button
+        android:text="@string/regDetails"
+        android:layout_width="117dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_datails"
+        android:textSize="14sp"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_alignBaseline="@+id/btn_result"
+        android:layout_alignBottom="@+id/btn_result"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="@string/regResults"
+        android:layout_width="124dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_result"
+        android:textSize="14sp"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_alignBaseline="@+id/regateDate"
+        android:layout_alignBottom="@+id/regateDate"
+        android:layout_toLeftOf="@+id/btn_datails"
+        android:layout_toStartOf="@+id/btn_datails" />
+
+    <TextView
+        android:id="@+id/regateDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="date"
+        android:textStyle="normal|bold"
+        android:textAlignment="viewStart"
+        android:layout_below="@+id/regateId"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>

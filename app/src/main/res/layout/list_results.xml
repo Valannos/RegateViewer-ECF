@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="@string/textView_Voilier_Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView_results_voilier_name"
+        android:textAlignment="center"
+        android:lineSpacingExtra="8sp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView_value_name_voilier"
+        android:textAlignment="center" />
+
+    <TextView
+        android:text="@string/textView_Voilier_Classe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView_results_classe"
+        android:textAlignment="center"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView_value_classe"
+        android:textAlignment="center" />
+
+    <TextView
+        android:text="@string/textView_result_tpsreel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView_result_tpsreel"
+        android:textAlignment="center"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView_value_tpsReel"
+        android:textColor="@android:color/holo_red_dark"
+        android:textAlignment="center" />
+
+    <TextView
+        android:text="@string/textView_textView_result_tpscomp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView_textView_result_tpscomp"
+        android:textAlignment="center"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView_value_tpsCom"
+        android:textColor="@android:color/holo_red_dark"
+        android:textAlignment="center" />
+
+    <TextView
+        android:text="@string/textView_results_rank"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView_results_rank"
+        android:textAlignment="center"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView_value_rank"
+        android:textColor="@android:color/holo_red_dark"
+        android:textAlignment="center" />
+
+</LinearLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:text="@string/textView_RegateDetails_Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView_RegateWelcome"
+        android:textAllCaps="true"
+        android:textSize="15sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginTop="22dp"
+
+        android:textStyle="normal|bold"
+        android:textAlignment="center"
+        android:fontFamily="monospace" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView_Regate_id"
+        android:text="@string/regTitle"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+       />
+
+    <TextView
+        android:text="@string/textView_Distance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView_Distance"
+        android:textAlignment="center"
+       />
+
+    <TextView
+        android:text="@string/textView_commissaires"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView_commissaires"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="15sp"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:textAllCaps="true"
+        android:layout_marginTop="16dp"
+        android:fontFamily="monospace" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView_comite_value"
+
+        android:textAlignment="center"
+        android:layout_weight="0.22" />
+
+    <TextView
+        android:text="@string/textView_title_participants_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:textSize="15sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="normal|bold"
+        android:textAllCaps="true"
+        android:layout_marginTop="30dp"
+        android:fontFamily="monospace"
+        android:textAlignment="center" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="331dp"
+        android:id="@+id/list_participations" />
+
+</LinearLayout>

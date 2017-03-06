@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">RegateViewer</string>
+    <string name="currChallenge">Challenge en cours : </string>
+    <string name="summer">Eté</string>
+    <string name="winter">Hiver</string>
+    <string name="regDetails">Détails</string>
+    <string name="regResults">Résultats</string>
+    <string name="regTitle">Régate : </string>
+    <string name="textView_RegateDetails_Title">Informations générales</string>
+    <string name="textView_Distance">Distance (miles)</string>
+    <string name="textView_commissaires">Commissaires</string>
+    <string name="textView_Voilier_Name">Nom du voilier</string>
+    <string name="textView_Voilier_Classe">Classe</string>
+    <string name="textView_Skipper">Nom du skipper</string>
+    <string name="Results_Regate_Title">Résultats de la régate</string>
+    <string name="textView_result_tpsreel">Temps réel</string>
+    <string name="textView_textView_result_tpscomp">Temps compensé</string>
+    <string name="textView_results_rank">Classement</string>
+    <string name="UNAVAILABLE">Non disponible</string>
+    <string name="textView_part_number">Participant N°</string>
+    <string name="textView_title_participants_list">Participants</string>
+</resources>
